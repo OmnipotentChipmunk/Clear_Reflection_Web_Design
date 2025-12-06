@@ -1,0 +1,110 @@
+* {
+    background-color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+    align-items: center;
+    font-size: 1.2rem;
+}
+html {
+    margin: 0;
+}
+body {
+    margin: 0;
+    align-items: center;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 3rem;
+}
+.nav_bar {
+    text-align: center;
+    background-color:#34535B;
+    padding: 10px 0 0 0;
+    position: sticky;
+    top: 0;
+}
+.nav_bar *{
+    background-color:inherit;
+}
+.nav_bar .nav_logo {
+    width: 15%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 150px;
+}
+.nav_bar h1 {
+    color: #FFFFFF;
+    margin: 0px 20px 0px 20px;
+    font-size: 2rem;
+}
+.nav_bar a {
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+    border-right: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    color: #FFFFFF; 
+}
+.nav_bar p {
+    background-color: #FFFFFF;
+    font-size: 0.0002 rem;
+    color: #34535B;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+}
+img {
+    width: 50%;
+    position : block;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+}
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.our_story_wrapper {
+    width: 70%;
+    margin: 10px auto 20px auto;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.Contact_Info{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #bbbbbb;
+    padding: 0 0 0 0;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #bbbbbb;
+    padding: 10px 0 10px 0;
+}
+footer *{
+    background-color: inherit;
+}
+.Contact_Info .footer_links {
+    padding: 10px 0 10px 0;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #9E9C54;
+}
+/* Changed nav bar color to #34535B 
+    Other color options: #65AA50*/
+.Contact_Info a {
+    color:#FFFFFF;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
