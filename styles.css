@@ -22,9 +22,13 @@ h1 {
     font-size: 3rem;
 }
 .nav_bar {
+    display: flex;
+    align-items: center;
     text-align: center;
-    background-color:#34535B;
-    padding: 10px 0 0 0;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color:#345358;
+    padding: 10px 0 10px 0;
     position: sticky;
     top: 0;
 }
@@ -44,8 +48,8 @@ h1 {
 }
 .nav_bar h1 {
     color: #FFFFFF;
-    margin: 0px 20px 0px 20px;
-    font-size: 2rem;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.5rem;
 }
 .nav_bar a {
     display: inline-block;
@@ -61,17 +65,38 @@ h1 {
 }
 .nav_bar a:visited {
     text-decoration:none;
-    color:#FFFFFF;
+    color:#CCCCCC;
+}
+.nav_bar .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav_bar .title hr {
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    margin: 10px 0 5px 0;
+}
+.nav_bar .nav_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav_bar p {
-    background-color: #FFFFFF;
-    font-size: 0.0002 rem;
-    color: #34535B;
-    margin-top: 20px;
-    padding: 10px 0 10px 0;
+    background-color: #345358;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 5px 0 10px 0;
 }
-img {
+#hero_image {
     width: 100%;
     height: auto;
     display: block;
@@ -79,6 +104,7 @@ img {
     max-width: 750px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 5px;
 }
 h2 {
     text-align: center;
